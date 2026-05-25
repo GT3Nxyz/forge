@@ -201,8 +201,8 @@ If you're reading this in Phase 1, you may be one of them.
 
 - **General questions:** Post in the GT3N Forge Discord #help channel
 - **Mission-specific questions:** Comment on the mission Issue
-- **Conduct issues:** Email titan@gt3n.xyz (subject: "Conduct Report")
-- **Account/admin issues:** Email titan@gt3n.xyz (subject: "Admin Issue")
+- **Conduct issues:** Email conduct@gt3n.xyz
+- **Account/admin issues:** Email forge@gt3n.xyz
 
 ---
 
