@@ -66,7 +66,9 @@ This Code of Conduct also applies when an individual is officially representing 
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at:
 
-**conduct@gt3n.xyz** (or the appropriate GT3N Forge channel when established)
+**titan@gt3n.xyz** (subject line: "GT3N Forge -- Conduct Report")
+
+Or via direct message to a Maintainer in the GT3N Forge Discord server.
 
 All complaints will be reviewed and investigated promptly and fairly.
 
