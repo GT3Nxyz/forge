@@ -101,19 +101,17 @@ GT3N Forge maintains a public "Wall of Records" of all approved Contributions. B
 
 ---
 
-## 10. Future Token Allocations
+## 10. No Financial Reward
 
-GT3N has publicly stated an intent to launch a token economy in future phases (Phase 5+), subject to legal infrastructure and regulatory compliance. By submitting Contributions, You acknowledge that:
+By submitting Contributions, You acknowledge that:
 
-(a) No token, equity, or financial reward is promised or guaranteed for current Contributions.
+(a) No payment, equity, or financial reward is promised, guaranteed, or implied for current Contributions.
 
-(b) If a token economy launches, GT3N has stated an intent to provide retroactive recognition to Wall of Records contributors. This is a stated intent, not a binding commitment.
+(b) Contributions are made voluntarily under the open-source contributor model.
 
-(c) The Wall of Records will serve as the historical record for any future retroactive token allocation.
+(c) Your recognition is the Wall of Records entry, the public attribution, and your verifiable portfolio.
 
-(d) Current Contributions are made voluntarily under the open-source model. Any future tokens, if launched, are additive recognition and not deferred compensation for current work.
-
-This Agreement does not constitute a securities offering or an investment contract.
+(d) This Agreement does not constitute a securities offering or an investment contract.
 
 ---
 

@@ -22,9 +22,9 @@ Welcome, Builder. This document explains how to contribute to GT3N Forge mission
 
 GT3N Forge is a gamified open-source builder program operated by [GT3N Industries](https://gt3n.xyz). Builders contribute work to real GT3N projects (GOGSverse, REKORD, ARK, HERMES, PICASSO) and earn permanent recognition on the Wall of Records.
 
-**This is an open-source contributor program.** Phase 1-3 contributions are licensed under Apache 2.0 (code) or CC-BY 4.0 (design/content). GT3N and anyone else may use the outputs under license terms. Builders earn recognition, not payment, in current phases.
+**This is an open-source contributor program.** All contributions are licensed under Apache 2.0 (code) or CC-BY 4.0 (design/content). GT3N and anyone else may use the outputs under license terms. Builders earn recognition through verified contributions on the Wall of Records.
 
-**Future phases** may add paid contractor missions (Phase 4) and tokenized rewards via SMARTCoins ATM (Phase 5+). See the [Tokenization Roadmap](./TOKENIZATION_ROADMAP.md) for the public statement of intent.
+The program model is the same as how Google maintains Kubernetes, Meta maintains React, or Vercel maintains Next.js -- a for-profit company maintaining open-source projects with a community of contributors who earn recognition and portfolio value through their work.
 
 ---
 
@@ -170,7 +170,7 @@ Every approved contribution becomes a permanent entry on the Wall of Records:
 - REKORD-synced (Phase 3+)
 - Becomes part of your portfolio forever
 
-If a token economy launches in future phases, Wall of Records entries will be the basis for retroactive token allocation. Early contributors (Founder Builders) receive the highest multiplier.
+The Wall of Records is the permanent recognition layer -- a verifiable record that you did this work and that the work hasn't been altered since.
 
 ---
 
@@ -180,7 +180,7 @@ The first 15 builders to contribute during Phase 1 receive permanent **Founder B
 
 - A unique badge on their Wall of Records profile
 - Recognition as the founding cohort
-- Highest retroactive multiplier when (and if) tokens launch
+- A permanent place in GT3N Forge history
 - First access to leadership opportunities as Forge grows
 
 If you're reading this in Phase 1, you may be one of them.

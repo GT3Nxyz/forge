@@ -44,10 +44,6 @@
 17. MVP Build Plan (Phased)
 18. Scalability Design
 
-**Part VI -- Risk & Mitigation**
-
-19. Risk Analysis & Failure Modes
-
 ---
 
 # PART I -- FOUNDATION
@@ -56,9 +52,9 @@
 
 ## 1. Executive Summary
 
-GT3N Forge is a gamified, AI-assisted builder ecosystem that serves as the development engine for GT3N Industries' venture studio portfolio. Builders complete real-world missions to build actual GT3N products across multiple verticals (sports, healthcare, finance, creative, verification). Contributions are verified through REKORD's integrity layer, builders earn XP and rank through a gamified progression system, and future phases introduce tokenized rewards convertible through SMARTCoins ATM.
+GT3N Forge is a gamified, AI-assisted open-source builder program that serves as the development engine for GT3N Industries' venture studio portfolio. Builders complete real-world missions to build actual GT3N products across multiple verticals (sports, healthcare, creative, knowledge verification). Contributions are verified through REKORD's integrity layer, recorded permanently on the GT3N Wall of Records, and builders earn XP and rank through a gamified progression system.
 
-Forge solves the venture studio's core constraint: too many projects, not enough builders. Instead of hiring a development team for each project, Forge creates a scalable builder network where verified contributors produce real products across the entire GT3N ecosystem.
+Forge solves the venture studio's core constraint: too many projects, not enough builders. Instead of hiring a development team for each project, Forge creates a scalable open-source contributor network where verified contributors produce real products across the entire GT3N ecosystem.
 
 ---
 
@@ -78,13 +74,10 @@ GT3N Forge is a gamified **open-source builder program** operated by GT3N Indust
 
 **Linux / Apache / React:** Open-source contributors building real software for real companies. Contributors earn reputation, portfolio strength, and community position -- not direct payment. The work itself is the value.
 
-**Bitcoin Mining (Long-term Vision):** Eventually, verified contributions could earn convertible tokens via SMARTCoins ATM (Phase 5+). The work is real, the proof is cryptographic, the recognition is permanent -- and someday, the economic layer arrives.
+The critical difference between Forge and a traditional volunteer program: the work itself is useful and verifiable. Open-source contributions produce apps, designs, research, and systems that GT3N actually ships. The Wall of Records makes every contribution cryptographically provable forever -- something a letter of recommendation can never match.
 
-The critical difference: the work itself is useful. Open-source contributions produce apps, designs, research, and systems that GT3N actually ships. The Wall of Records makes every contribution verifiable forever.
+### 2.3 The Builder Loop
 
-### 2.3 The Phased Loop
-
-**Phase 1-3 (Current):**
 ```
 Builder joins Forge
   -> Picks an open-source mission (any GT3N project)
@@ -98,37 +91,17 @@ Builder joins Forge
   -> Eventually: contributions sync to REKORD for institutional preservation
 ```
 
-**Phase 4+ (Future):**
-```
-Same loop, plus:
-  -> Some missions are paid contractor work (proprietary, $50-300 per mission)
-  -> Funded by GT3N project revenue, grants, or sponsor-funded missions
-  -> OSS missions continue alongside paid missions
-  -> Wall of Records remains universal recognition layer
-```
-
-**Phase 5+ (Vision):**
-```
-Same loop, plus:
-  -> Token economy via SMARTCoins ATM
-  -> Retroactive token allocation to all Wall of Records contributors
-  -> Founder Builders (Phase 1 contributors) receive highest multiplier
-  -> New contributions earn tokens going forward
-  -> Tokens convertible to real-world value
-  -> Subject to proper legal structure and securities compliance
-```
-
 ### 2.4 Key Principles
 
 | Principle | Description |
 |-----------|-------------|
 | Real work only | No fake tasks. Every mission produces output for a GT3N project. |
 | Verifiable contributions | Every contribution is SHA-256 hashed, chained per builder, and REKORD-compatible. Wall of Records is the permanent portfolio. |
-| Open source by default | Phase 1-3 contributions released under Apache 2.0 (code) or CC-BY 4.0 (design/content). Public goods, not proprietary value extraction. |
+| Open source by default | Contributions released under Apache 2.0 (code) or CC-BY 4.0 (design/content). Public goods. |
 | Gamified progression | Levels, XP, ranks, badges, streaks. The game IS the work. |
 | AI is a tool, not the platform | Builders bring their own AI. Forge tracks usage transparently, doesn't provide it. |
-| Recognition first, economy later | Community built before tokens. Wall of Records is the foundation; tokens are the future layer. |
-| Founder Builders earn the highest position | Early contributors (Phase 1) hold permanent founder status and receive amplified retroactive recognition when tokens eventually launch. |
+| Community first | Build the community of verified contributors before anything else. |
+| Founder Builders earn the highest position | Early contributors (Phase 1) hold permanent founder status and recognition. |
 
 ---
 
@@ -336,7 +309,7 @@ An approved elite submission counts more than an approved starter. Reputation dr
 
 | Category | Examples |
 |----------|---------|
-| **Founder** | **Founder Builder** (first 15 contributors, permanent, non-transferable, highest retroactive token multiplier in Phase 5+) |
+| **Founder** | **Founder Builder** (first 15 contributors, permanent, non-transferable, highest standing in Forge history) |
 | **General** | First Build, Hat Trick (3 approvals in a row), Polymath (3+ types) |
 | **Project** | GOGSverse Champion (5+ contributions), ARK Pioneer (first 10 contributors), Forge Smith (contributed to Forge itself) |
 | **Track** | AI Artisan (vibe coder, 5 missions with AI score >= 4), System Thinker (developer, 3 architecture missions) |
@@ -370,7 +343,7 @@ The Wall is:
   - REKORD-synced (Phase 3+) for institutional preservation
 ```
 
-The Wall of Records is what early Builders earn in Phase 1-3 instead of cash. It is also the foundation for future retroactive token allocation (Phase 5+).
+The Wall of Records is what builders earn -- permanent, verifiable, public proof of their contributions to GT3N's portfolio.
 
 ---
 
@@ -405,12 +378,13 @@ The Wall of Records is what early Builders earn in Phase 1-3 instead of cash. It
 
   +-----------------------------------------------------+
   |                 INFRASTRUCTURE                       |
-  | +----------+  +---------------+  +-----------------+ |
-  | |  REKORD  |  | SMARTCoins    |  | Forge Platform  | |
-  | |PostgreSQL|  | ATM           |  | (Cloudflare)    | |
-  | |pgvector  |  | Token->Value  |  | D1, R2, KV,     | |
-  | |Hyperledger| |               |  | Workers, Queues | |
-  | +----------+  +---------------+  +-----------------+ |
+  | +-------------------+   +-----------------------+    |
+  | |  REKORD           |   | Forge Platform        |    |
+  | |  PostgreSQL +     |   | (Cloudflare)          |    |
+  | |  pgvector         |   | D1, R2, KV,           |    |
+  | |  SHA-256 Audit    |   | Workers, Queues       |    |
+  | |  Hash Chain       |   |                       |    |
+  | +-------------------+   +-----------------------+    |
   +-----------------------------------------------------+
 ```
 
@@ -664,10 +638,6 @@ Score 5: "used Claude for SQL schema gen, manually
           optimized indexes, wrote all tests"       -> EXCELLENT
 ```
 
-### 11.3 Centralized AI Layer (Future)
-
-Optional GT3N-provided AI tools via Cloudflare AI Gateway in Phase 4+. BYOAI remains supported. Centralized layer would add automatic usage tracking and prompt analytics.
-
 ---
 
 ## 12. REKORD Integration
@@ -725,7 +695,6 @@ If any record is tampered with, the chain breaks. Verifiable without any blockch
 | Phase 1-2 | `local` | Hash chain in Forge D1. REKORD-compatible, not connected. |
 | Phase 3 | `synced` | Contributions sync to REKORD PostgreSQL (Layer 4). |
 | Phase 3 | `indexed` | Embedded + searchable in REKORD (Layer 6). |
-| Phase 4+ | `anchored` | Merkle root on Hyperledger Fabric. |
 
 ---
 
@@ -1021,28 +990,17 @@ Full API specification with request/response examples is in the separate API doc
 ### 17.1 Timeline
 
 ```
-Week  1-2   | PHASE 1: No-Code OSS MVP (Codeberg + GitHub mirror + Sheets + Discord)
-              All missions are open source (Apache 2.0 / CC-BY 4.0)
-              No payments. Wall of Records is the recognition layer.
+Months 1-3   | PHASE 1: No-Code OSS MVP (Codeberg + GitHub + Sheets + Discord)
+               All missions are open source (Apache 2.0 / CC-BY 4.0)
+               Wall of Records is the recognition layer.
 
-Week  3-6   | PHASE 2: First Custom Build (Next.js + Hono + D1)
-              Still OSS-only. Custom platform, real data, automated flows.
+Months 3-6   | PHASE 2: First Custom Build (Next.js + Hono + D1)
+               Custom platform, real data, automated flows.
 
-Week  7-12  | PHASE 3: Scale Prep + REKORD Integration
-              Wall of Records syncs to REKORD PostgreSQL.
-              Still OSS-only. Founder bandwidth reduced via Project Leads.
-
-Year 2+     | PHASE 4: Add Paid Contractor Missions
-              OSS missions continue. Paid missions added for proprietary work.
-              Funded by GT3N project revenue, grants, or sponsor-funded missions.
-
-Year 3+     | PHASE 5: Token Economy via SMARTCoins ATM
-              Subject to legal infrastructure and regulatory compliance.
-              Retroactive token allocation to Wall of Records contributors.
-              Founder Builders (Phase 1) get highest multiplier.
+Months 6-12  | PHASE 3: Scale Prep + REKORD Integration
+               Wall of Records syncs to REKORD PostgreSQL.
+               Project Leads added to scale validation.
 ```
-
-See the separate **Tokenization Roadmap document** for the public statement of intent regarding future phases.
 
 ### 17.2 Phase 1: No-Code OSS MVP (Weeks 1-2)
 
@@ -1084,7 +1042,7 @@ Phase 1 focuses on the GT3N projects with active build momentum. Other ecosystem
 
 **Build:** Registration + profiles, project listing, mission board (by project), claiming, submissions (with hashing), admin review (Tier 1 + 3), XP/rank, contribution records, audit log, chain verification endpoint.
 
-**Do NOT build:** Peer review (Tier 2), badges, leaderboard (use Sheet), notifications (use Discord), mission proposals, tokens, REKORD sync.
+**Do NOT build yet:** Peer review (Tier 2), badges, leaderboard (use Sheet), notifications (use Discord), mission proposals, REKORD sync.
 
 ### 17.4 Phase 3: Scale Preparation (Weeks 7-12)
 
@@ -1102,9 +1060,6 @@ BUILD SECOND (Phase 3):    Peer review, Project Leads, badges, REKORD sync,
                            notifications, mission proposals
 
 KEEP SIMPLE:               Leaderboard (Sheet embed), Discord for notifications
-
-BUILD LATER (Phase 4+):    Token layer, Hyperledger anchoring, client projects,
-                           mobile app, social features
 ```
 
 ---
@@ -1113,56 +1068,12 @@ BUILD LATER (Phase 4+):    Token layer, Hyperledger anchoring, client projects,
 
 | Phase | Users | Architecture | Cost |
 |-------|-------|-------------|------|
-| Phase 1 | 5-15 | No-code (Notion + Sheets) | $0-50/mo |
+| Phase 1 | 5-15 | No-code (Sheets + Discord) | $0-50/mo |
 | Phase 2 | 15-50 | Single Worker + D1 + R2 | $25-100/mo |
 | Phase 3 | 50-500 | Split Workers + Queues + KV | $100-500/mo |
-| Phase 4+ | 500-10K | Service mesh + Postgres via Hyperdrive | $500-2K/mo |
 
 **What scales first:** Mission board queries, file uploads, leaderboard reads.  
 **What doesn't need to scale early:** Badge calculation, mission creation, REKORD sync.
-
----
-
-# PART VI -- RISK AND MITIGATION
-
----
-
-## 19. Risk Analysis and Failure Modes
-
-### 19.1 Risk Summary
-
-| # | Risk | Likelihood | Impact | Mitigation |
-|---|------|-----------|--------|-----------|
-| 1 | Mission supply runs dry | Very High | Critical | Multi-project missions, Project Leads create missions (Phase 3) |
-| 2 | Founder burns out on reviews | High | Critical | Tiered validation, Project Leads reduce load by 60% |
-| 3 | Builders churn after 2-3 missions | High | High | Project variety, track system, corrected XP multipliers |
-| 4 | Value prop weak for strangers | High | High | REKORD verification, focus on intrinsic motivation early |
-| 5 | Peer review quality unreliable | Medium | High | Tiered system limits peer review to Tier 2 only |
-| 6 | AI disclosure is theatrical | Medium | Medium | Structured tracking, pattern analysis over time |
-| 7 | Economic layer causes split | Medium | High | Publish retroactive policy before Phase 4 |
-| 8 | Project sprawl | High | Medium | Focus Phase 1 on 2-3 projects, expand as builders grow |
-| 9 | Gamification rewards grinders | Medium | Medium | Multipliers 1x/2x/5x/10x prevent starter grinding |
-| 10 | Sybil / collusion | Low | Medium | OAuth identity, IP throttling, pattern detection |
-
-### 19.2 What NOT to Build Early
-
-| Feature | Why It's a Trap |
-|---------|----------------|
-| Token economy | Legal complexity, zero users to reward |
-| Blockchain proof | SHA-256 hash chain IS verifiable at this scale |
-| Built-in AI tools | Builders already have their tools |
-| Social features | Discord exists |
-| Analytics dashboard | Cloudflare Analytics + spreadsheet is enough |
-| Fancy onboarding | Notion doc beats a wizard at 15 users |
-| API for third parties | Zero third parties exist |
-
-### 19.3 The Two Things That Will Kill Forge
-
-1. **Mission supply.** If builders log in and see nothing to do, they leave. Pre-load 16+ missions. Create 5-10 new ones per week. Enable Project Leads as soon as possible.
-
-2. **Founder bandwidth.** If the founder spends all day reviewing submissions instead of building the platform and creating missions, everything stalls. Tiered validation and Project Leads are not optional features -- they are survival mechanisms.
-
-Everything else is manageable if these two are solved.
 
 ---
 
@@ -1170,8 +1081,8 @@ Everything else is manageable if these two are solved.
 
 ---
 
-*This document consolidates the complete GT3N Forge design: concept, product design, systems architecture, technical specification, execution plan, and risk analysis. It represents the full pre-build reference for GT3N Forge v1.0.*
+*This document outlines the GT3N Forge program for Phase 1-3: the open-source builder program concept, product design, systems architecture, technical specification, and execution plan.*
 
-*Prepared by: GP Tenazas, Gwen (OpenAI), Claude (Anthropic)*  
+*Prepared by: GP Tenazas, with collaboration from Gwen (OpenAI) and Claude (Anthropic)*  
 *For: GT3N Industries*  
-*Date: April 15, 2026*
+*Date: May 2026*

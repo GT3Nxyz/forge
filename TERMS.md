@@ -15,7 +15,7 @@
 
 ## 1. What is GT3N Forge
 
-GT3N Forge is a gamified open-source builder program operated by GT3N Industries ("GT3N"). Forge provides a platform where participants ("Builders") voluntarily contribute open-source work toward real-world missions that benefit GT3N's portfolio of projects (GOGSverse, REKORD, ARK, HERMES, PICASSO, SMARTCoins ATM, and GT3N Forge itself).
+GT3N Forge is a gamified open-source builder program operated by GT3N Industries ("GT3N"). Forge provides a platform where participants ("Builders") voluntarily contribute open-source work toward real-world missions that benefit GT3N's portfolio of projects (GOGSverse, REKORD, ARK, HERMES, PICASSO, and GT3N Forge itself).
 
 Builders earn **recognition, verified contribution records on the GT3N Wall of Records, gamified rank progression, and eligibility for future economic participation** through their voluntary contributions.
 
@@ -36,7 +36,7 @@ Participation in GT3N Forge **does not** create any of the following relationshi
 - **Employment.** Builders are not employees of GT3N Industries. GT3N does not provide wages, salaries, benefits, insurance, tax withholding, or any form of employment compensation. No W-2 or 1099 is issued for recognition-based participation in Phase 1-3.
 - **Independent contractor engagement.** In Phase 1-3, there is no service agreement, statement of work, or payment-based contractor relationship. (This may change in future phases -- see Section 6.)
 - **Partnership or joint venture.** Builders do not hold equity, ownership, or decision-making authority in GT3N Industries by virtue of participation.
-- **Securities offering.** Forge is not a securities offering. Future tokenization (Section 6) will only occur with proper legal structure and is not promised, guaranteed, or solicited through current participation.
+- **Securities offering.** Forge is not a securities offering. Participation does not constitute an investment, and no financial return is promised, guaranteed, or solicited.
 
 ### 2.3 Builder Autonomy
 
@@ -134,7 +134,7 @@ A Wall of Records entry is more verifiable proof of work than any letter of reco
 - No tax documents (W-2, 1099) for participation
 - No equity or ownership in GT3N Industries
 - No guaranteed minimum compensation of any kind
-- No specific or guaranteed token or financial reward
+- No financial reward of any kind
 
 ---
 
@@ -185,39 +185,19 @@ Submissions are reviewed according to the mission's specified validation tier:
 
 ---
 
-## 6. Future Phases and Tokenization
+## 6. Program Phases
 
-### 6.1 Stated Intent (Not a Promise)
+GT3N Industries operates GT3N Forge in progressive phases:
 
-GT3N Industries' stated intent is to expand GT3N Forge across multiple phases:
+- **Phase 1 (Current):** Hand-picked, invite-only no-code MVP. 5-15 Founder Builders. Open-source contributions only.
+- **Phase 2:** Custom platform build on Cloudflare. Expanded builder pool. Same open-source model.
+- **Phase 3:** REKORD integration. Contributions sync to GT3N's Knowledge-as-a-Service platform for institutional preservation and semantic search.
 
-- **Phase 1-2 (Current):** Open-source contributor program, no payment
-- **Phase 3:** REKORD integration (contributions sync to GT3N's Knowledge-as-a-Service platform)
-- **Phase 4:** Add paid contractor missions for proprietary work (when GT3N has revenue or grant funding)
-- **Phase 5+:** Introduce token economy via SMARTCoins ATM, with proper legal infrastructure
+Phase 1-3 contributors participate based on the immediate value of open-source contribution, Wall of Records recognition, and verifiable portfolio building.
 
-### 6.2 Retroactive Recognition for Early Contributors
+### No Securities Offering
 
-When (and if) a token economy launches in Phase 5 or beyond, GT3N's stated intent is to provide **retroactive token allocation** to all Wall of Records contributors based on their contribution history, weighted by:
-
-- XP earned
-- Mission difficulty
-- Phase of participation (early contributors receive amplified recognition)
-- Reputation score
-
-**This is a stated intent, not a guarantee.** Token launches require:
-
-- Mature legal infrastructure (securities counsel)
-- Regulatory compliance
-- Functional SMARTCoins ATM infrastructure
-- Market conditions
-- Possibly years of development
-
-Contributors participating in Phase 1-3 do so based on the immediate value of open-source contribution and Wall of Records recognition. Future tokens, if launched, are additive recognition -- **not deferred wages or compensation for current work**.
-
-### 6.3 No Securities Offering
-
-This document, the Forge platform, the Wall of Records, and all related communications do not constitute an offer of securities, an investment opportunity, or a solicitation of any kind. Any future token offering would be conducted under appropriate legal structure, with all required disclosures, and would be a separate event from current Forge participation.
+This document, the Forge platform, the Wall of Records, and all related communications do not constitute an offer of securities, an investment opportunity, or a solicitation of any kind. Participation provides no financial return.
 
 ---
 
@@ -281,8 +261,7 @@ GT3N Forge is provided "as is." GT3N Industries makes no warranties regarding:
 
 - Platform availability or uptime
 - The accuracy of XP calculations or rank determinations
-- The future implementation of REKORD integration or token economy
-- The value, market acceptance, or convertibility of any future tokens
+- The future implementation of REKORD integration or other Phase 2-3 features
 
 GT3N's total liability to any Builder under these terms shall not exceed any value actually received by that Builder from GT3N.
 

@@ -114,27 +114,13 @@ Rule changes do not affect Wall of Records entries already created under prior r
 
 ### Strategic Direction
 
-Strategic decisions (e.g., adding new GT3N projects, transitioning to Phase 4 paid missions, launching the token economy) are made by:
+Strategic decisions (e.g., adding new GT3N projects, modifying the platform model) are made by:
 
 1. **Maintainers** -- with input from Project Leads and the broader community
 2. **Subject to GT3N Industries' commercial interests** -- as a for-profit operator
-3. **Communicated publicly** -- via quarterly updates and major announcements
+3. **Communicated publicly** -- via updates and major announcements
 
-The community has voice, not vote. This is consistent with how other open-source-with-commercial-operator projects work (React, Kubernetes, etc.).
-
----
-
-## Future Governance Evolution
-
-When the token economy launches (Phase 5+), governance may evolve to include:
-
-- **Token-weighted community proposals** -- holders of GT3N tokens can propose changes
-- **Council of Core Contributors** -- highest-rank builders with formal advisory role
-- **Delegate voting** -- builders can delegate their voting power to others they trust
-
-These structures will be designed when the time comes, with appropriate legal frameworks.
-
-For now (Phase 1-3), governance is intentionally simple: Maintainers decide, with input from the community.
+The community has voice, not vote. This is consistent with how other open-source-with-commercial-operator projects work (React, Kubernetes, Next.js, etc.).
 
 ---
 
@@ -152,9 +138,7 @@ If a builder disagrees with a Maintainer decision:
 
 1. **First:** Raise the concern privately with the Maintainer
 2. **Second:** If unresolved, escalate to the other Maintainer (currently the second of GP / Gwen)
-3. **Third:** If still unresolved, the builder may close their account, but Maintainer decisions are otherwise final during Phase 1-3.
-
-In Phase 5+ with formal governance structures, additional escalation paths will exist.
+3. **Third:** If still unresolved, the builder may close their account. Maintainer decisions are final.
 
 ---
 
@@ -181,8 +165,7 @@ GT3N commits to publishing quarterly updates covering:
 
 - Platform metrics (active builders, contributions, mission completion rates)
 - Phase progression (where we are in the roadmap)
-- REKORD integration status (Phase 3 timeline)
-- Tokenization readiness (Phase 5 progress)
+- REKORD integration status
 - Governance changes (if any)
 - Community concerns raised and addressed
 
